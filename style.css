@@ -331,7 +331,7 @@ src: url("https://db.onlinewebfonts.com/t/3416b4cfa5dbaadadef21fdc73d347cb.woff"
 }
 */
 .lpc_desktop.lpc_message-area_agent {
-    padding: 0 20px 4px !important;
+    padding: 0 10px 4px !important;
 }
 
 .lpc_desktop.lpc_message-area__avatar_agent {
@@ -424,17 +424,19 @@ src: url("https://db.onlinewebfonts.com/t/3416b4cfa5dbaadadef21fdc73d347cb.woff"
 }
 
 .lpc_desktop.lpc_composer {
-    height: 40px !important;
+    height: 35px !important;
     box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.2) !important;
     border-top: none !important;
+    overflow: hidden !important;
 }
 
 .lpc_desktop.lpc_composer__text-area-wrapper {
-    padding: 14px 0 !important;
+    padding: 10px 0 !important;
 }
 
 .lpc_desktop.lpc_composer__text-area {
     font-size: 14px !important;
+    font-family: var(--font-face) !important;
 }
 
 .lpc_desktop.lpc_composer__text-area:focus {
@@ -466,5 +468,5 @@ src: url("https://db.onlinewebfonts.com/t/3416b4cfa5dbaadadef21fdc73d347cb.woff"
 }
 
 .lpc_desktop.lpc_composer__send-button {
-    top: 12px !important;
+    top: 7px !important;
 }
