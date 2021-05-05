@@ -1,9 +1,9 @@
 @font-face {font-family: "Land Rover Web Bold";
-src:url("https://db.onlinewebfonts.com/t/d47572862e84eb89e4791d7d66694ac8.woff") format("woff");
+src:url("Land Rover Web Bold.woff") format("woff");
 }
 
 @font-face {font-family: "Avenir LT Pro 35 Light"; 
-src: url("https://db.onlinewebfonts.com/t/3416b4cfa5dbaadadef21fdc73d347cb.woff") format("woff");
+src: url("Avenir LT Pro 35 Light.woff") format("woff");
 }
 
 :root {
