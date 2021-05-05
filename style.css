@@ -41,7 +41,7 @@ src: url("https://db.onlinewebfonts.com/t/3416b4cfa5dbaadadef21fdc73d347cb.woff"
 .lpc_desktop.lpc_minimized-header {
     border: none!important;
     background: #005A2B !important;
-    height: 40px !important;
+    height: 35px !important;
     border-radius: 0px !important;
     box-shadow: none !important;
 }
@@ -52,7 +52,7 @@ src: url("https://db.onlinewebfonts.com/t/3416b4cfa5dbaadadef21fdc73d347cb.woff"
     font-family: var(--font-heading) !important;
     font-weight: 100 !important;
     font-size: 16px !important;
-    margin-top: 4px !important;
+    margin-top: 0px !important;
     margin-left: 85px !important;
 }
 
@@ -67,9 +67,10 @@ src: url("https://db.onlinewebfonts.com/t/3416b4cfa5dbaadadef21fdc73d347cb.woff"
     background-image: url("https://res.cloudinary.com/dvt6kjlil/image/upload/v1619721669/logo-large-2x_cscgbc.webp") !important;
     background-repeat: no-repeat !important;
     background-position: 0px 0px !important;
-    background-size: 46px 24px !important;
+    background-size: contain !important;
     height: 24px !important;
     width: 46px !important;
+    margin-top: -3px !important;
 }
 
 .lpc_desktop.lpc_maximized-header__icon-asset,
@@ -124,9 +125,9 @@ src: url("https://db.onlinewebfonts.com/t/3416b4cfa5dbaadadef21fdc73d347cb.woff"
 .lpc_desktop.lpc_maximized-header__minimize-button {
     background-image: url("https://res.cloudinary.com/dvt6kjlil/image/upload/v1620214995/minus-white_npbwll.png") !important;
     background-repeat: no-repeat !important;
-    background-position: 8px 10px !important;
+    background-position: 8px 5px !important;
     background-size: 16px !important;
-    height: 40px !important;
+    height: 25px !important;
 }
 
 .lpc_desktop.lpc_maximized-header__minimize-button-asset {
@@ -155,7 +156,7 @@ src: url("https://db.onlinewebfonts.com/t/3416b4cfa5dbaadadef21fdc73d347cb.woff"
 }
 .lpc_desktop.lpc_maximized-header__close-button-asset,
 .lpc_desktop.lpc_minimized-header__close-button-asset {
-    display: none;
+    display: none !important;
 }
 
 .lpc_desktop.lpc_window_maximized {
@@ -169,8 +170,8 @@ src: url("https://db.onlinewebfonts.com/t/3416b4cfa5dbaadadef21fdc73d347cb.woff"
     background: #E9ECEC !important;
 }
 
-.lpc_desktop.lpc_maximied-header {
-    border: none!important;
+.lpc_desktop.lpc_maximized-header {
+    border: none !important;
 }
 
 .lpc_desktop.lpc_window_slider-open {
@@ -239,7 +240,7 @@ src: url("https://db.onlinewebfonts.com/t/3416b4cfa5dbaadadef21fdc73d347cb.woff"
 }
 
 .lpc_desktop.lpc_body {
-    top: 40px !important;
+    top: 35px !important;
     overflow: hidden !important;
     border: none !important;
 }
@@ -288,6 +289,7 @@ src: url("https://db.onlinewebfonts.com/t/3416b4cfa5dbaadadef21fdc73d347cb.woff"
 .lpc_desktop.lpc_message-area__timestamp_agent {
     padding: 0px 0px 0px 0px !important;
     color: #4A4F54 !important;
+    margin-left: -20px !important;
 }
 
 .lpc_desktop.lpc_message_agent {
@@ -345,6 +347,7 @@ src: url("https://db.onlinewebfonts.com/t/3416b4cfa5dbaadadef21fdc73d347cb.woff"
     border-radius: 5px 5px 5px 0 !important;
     overflow: hidden !important;
     max-width: none !important;
+    margin-left: 0px !important;
 }
 
 .lpc_desktop.lpc_card__text {
@@ -452,16 +455,16 @@ src: url("https://db.onlinewebfonts.com/t/3416b4cfa5dbaadadef21fdc73d347cb.woff"
     top: 14px !important;
 }
 /*Menu button End Conversation, Clear History, Mute*/
-/*
+
 .lpc_desktop.lpc_maximized-header__menu-button{
-    background-image: url(https://res.cloudinary.com/dvt6kjlil/image/upload/v1619642133/menu-icon_q7bnvm.png) !important;
-    top: 5px !important;
-    display: block !important;
+    background-image: url(https://res.cloudinary.com/dvt6kjlil/image/upload/v1620214995/menu-icon_rrhktj.png) !important;
+    top: 10px !important;
+    transform: rotate(90deg) !important;
+    background-size: 24px !important;
 }
 .lpc_desktop.lpc_maximized-header__menu-button-asset{
     display: none !important;
 }
-*/
 
 .lpc_desktop.lpc_composer button::focus {
     outline: none !important;
