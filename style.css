@@ -1,3 +1,15 @@
+@font-face {font-family: "Land Rover Web Bold";
+src:url("https://db.onlinewebfonts.com/t/d47572862e84eb89e4791d7d66694ac8.woff") format("woff");
+}
+
+@font-face {font-family: "Avenir LT Pro 35 Light"; 
+src: url("https://db.onlinewebfonts.com/t/3416b4cfa5dbaadadef21fdc73d347cb.woff") format("woff");
+}
+
+:root {
+  --font-heading: 'Land Rover Web Bold';
+  --font-face: 'Avenir LT Pro 35 Light';
+}
 .lpc_desktop.lpc_body {
     background: #E9ECEC !important;
 }
@@ -20,7 +32,7 @@
 .lpc_desktop.lpc_window_maximized,
 .lpc_desktop.lpc_window_minimized {
     width: 350px !important;
-    border: none!important;
+    border: none !important;
     box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.2) !important;
     overflow: hidden;
 }
@@ -37,7 +49,7 @@
 .lpc_desktop.lpc_minimized-header__text,
 .lpc_desktop.lpc_maximized-header__text {
     color: #fff !important;
-    font-family: 'Helvetica' !important;
+    font-family: var(--font-heading) !important;
     font-weight: 100 !important;
     font-size: 16px !important;
     margin-top: 4px !important;
@@ -256,6 +268,7 @@
 .lpc_desktop.lpc_message-area__timestamp {
     margin-top: 10px !important;
     color: #4A4F54 !important;
+    font-family: var(--font-face) !important;
 }
 
 .lpc_desktop.lpc_message-area_system {
@@ -280,14 +293,14 @@
 .lpc_desktop.lpc_message_agent {
     background: #fff !important;
     border: none !important;
-    padding: 10px !important;
-    border-radius: 0px !important;
+    padding: 8px !important;
+    border-radius: 5px 5px 5px 0px !important;
 }
 
 .lpc_desktop.lpc_message__text,
 .lpc_desktop.lpc_message_agent__text p {
     color: #333 !important;
-    font-family: Helvetica !important;
+    font-family: var(--font-face) !important;
 }
 .lpc_desktop.lpc_message_agent a{
     color: blue !important;
@@ -329,14 +342,14 @@
 
 .lpc_desktop.lpc_card {
     border: 1px solid #fff !important;
-    border-radius: 0px 0px 0px 0 !important;
+    border-radius: 5px 5px 5px 0 !important;
     overflow: hidden !important;
     max-width: none !important;
 }
 
 .lpc_desktop.lpc_card__text {
     background: #fff !important;
-    padding: 10px !important;
+    padding: 8px !important;
 }
 
 .lpc_desktop.lpc_card__text span {
@@ -345,7 +358,7 @@
 }
 
 .lpc_desktop.lpc_card__button {
-    border-top: 2px solid #E9ECEC !important;
+    border-top: 1px solid #E9ECEC !important;
 }
 
 .lpc_desktop.lpc_card__button button {
@@ -371,14 +384,14 @@
 .lpc_desktop.lpc_message_visitor {
     border: none !important;
     background: #005A2B !important;
-    padding: 10px !important;
-    border-radius: 0px !important;
+    padding: 8px !important;
+    border-radius: 5px 5px 0px 5px  !important;
 }
 
 .lpc_desktop.lpc_message__text_visitor,
 .lpc_desktop.lpc_message__text_visitor p {
     color: #ffffff !important;
-    font-family: Helvetica !important;
+    font-family: var(--font-face) !important;
 }
 
 .lpc_desktop.lpc_message_card {
