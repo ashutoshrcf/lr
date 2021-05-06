@@ -57,13 +57,13 @@ src: url("Avenir LT Pro 35 Light.woff") format("woff");
 }
 
 .lpc_desktop.lpc_minimized-header__text {
-    margin-left: 10px !important;
+    margin-left: 85px !important;
 }
 
 /*Chat bubble Icon*/
 
 #lpChat .lpc_desktop.lpc_maximized-header__icon,
-.lpc_desktop.lpc_minimized-header__icon {
+#lpChat .lpc_desktop.lpc_minimized-header__icon {
     background-image: url("https://res.cloudinary.com/dvt6kjlil/image/upload/v1619721669/logo-large-2x_cscgbc.webp") !important;
     background-repeat: no-repeat !important;
     background-position: 0px 0px !important;
@@ -137,9 +137,9 @@ src: url("Avenir LT Pro 35 Light.woff") format("woff");
 .lpc_desktop.lpc_minimized-header__maximize-button {
     background-image: url("https://res.cloudinary.com/dvt6kjlil/image/upload/v1620214995/expand-white_qwbt80.png") !important;
     background-repeat: no-repeat !important;
-    background-position: 8px 10px !important;
+    background-position: 8px 5px !important;
     background-size: 16px !important;
-    height: 40px !important;
+    height: 30px !important;
 }
 
 .lpc_desktop.lpc_minimized-header__maximize-button-asset {
