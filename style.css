@@ -318,20 +318,40 @@ src: url("https://res.cloudinary.com/dvt6kjlil/raw/upload/v1620287210/Fonts/Aven
 .lpc_desktop.lpc_message__text_agent p b {
     font-weight: 600 !important;
 }
-/*AGENT TAIL*/
-/* 
+
+/*------AGENT TAIL----------*/
+
 .lpc_desktop.lpc_message__text_agent:after {
-    background: url("") no-repeat;
+    background: url("https://res.cloudinary.com/dvt6kjlil/image/upload/v1620379802/Tails/agent-tail-white_ef0du2.svg") no-repeat;
     display: block;
     content: ' ';
     width: 10px;
-    height: 15px;
+    height: 48px;
     position: absolute;
     margin-left: -16px;
     bottom: 0;
     margin-top: -10px;
+    -webkit-transform: scaleY(-1);
+    -moz-transform: scaleY(-1);
+    transform: scaleY(-1);
 }
-*/
+
+/*------USER CHAT TAIL---------*/
+
+.lpc_desktop.lpc_message__text_visitor:after {
+    background: url(https://res.cloudinary.com/dvt6kjlil/image/upload/v1620388184/Tails/visitor-tail-green_ev7k5b.svg) no-repeat;
+    display: block;
+    content: ' ';
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    bottom: -8px;
+    right: -14px;
+    -webkit-transform: scale(-1);
+    -moz-transform: scale(-1);
+    transform: scale(-1);
+}
+
 .lpc_desktop.lpc_message-area_agent {
     padding: 0 10px 4px !important;
 }
@@ -347,7 +367,7 @@ src: url("https://res.cloudinary.com/dvt6kjlil/raw/upload/v1620287210/Fonts/Aven
     border-radius: 5px 5px 5px 0 !important;
     overflow: hidden !important;
     max-width: none !important;
-    margin-left: 0px !important;
+    margin-left: -8px !important;
 }
 
 .lpc_desktop.lpc_card__text {
@@ -404,22 +424,6 @@ src: url("https://res.cloudinary.com/dvt6kjlil/raw/upload/v1620287210/Fonts/Aven
 .lpc_desktop.lpc_message__text_card:after {
     background: unset !important;
 }
-/*USER CHAT TAIL*/
-/*
-.lpc_desktop.lpc_message__text_visitor:after {
-    background: url("https://res.cloudinary.com/dvt6kjlil/image/upload/v1620214995/chat-tail-user_r43pkq.svg") no-repeat;
-    display: block;
-    content: ' ';
-    width: 10px;
-    height: 15px;
-    position: absolute;
-    bottom: -10px;
-    right: -12px;
-    -webkit-transform: scaleX(-1);
-    -moz-transform: scaleX(-1);
-    transform: scaleX(-1);
-}
-*/
 
 .lpc_desktop.lpc_message-tail__border_visitor,
 .lpc_desktop.lpc_message-tail_visitor {
