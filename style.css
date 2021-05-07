@@ -289,7 +289,7 @@ src: url("https://res.cloudinary.com/dvt6kjlil/raw/upload/v1620287210/Fonts/Aven
 .lpc_desktop.lpc_message-area__timestamp_agent {
     padding: 0px 0px 0px 0px !important;
     color: #4A4F54 !important;
-    margin-left: -20px !important;
+    margin-left: 4px !important;
 }
 
 .lpc_desktop.lpc_message_agent {
