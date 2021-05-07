@@ -5,6 +5,10 @@ src:url("https://res.cloudinary.com/dvt6kjlil/raw/upload/v1620287210/Fonts/Land_
 @font-face {font-family: "Avenir LT Pro 35 Light"; 
 src: url("https://res.cloudinary.com/dvt6kjlil/raw/upload/v1620287210/Fonts/Avenir_LT_Pro_35_Light_zxspt6.woff") format("woff");
 }
+/*JUST FOR TESTING, BAD ACCESSIBILITY PRACTICE*/
+*:focus{
+    outline: none !important;
+}
 
 :root {
   --font-heading: 'Land Rover Web Bold';
@@ -67,10 +71,10 @@ src: url("https://res.cloudinary.com/dvt6kjlil/raw/upload/v1620287210/Fonts/Aven
     background-image: url("https://res.cloudinary.com/dvt6kjlil/image/upload/v1619721669/logo-large-2x_cscgbc.webp") !important;
     background-repeat: no-repeat !important;
     background-position: 0px 0px !important;
-    background-size: 46px 24px !important;
-    height: 24px !important;
-    width: 46px !important;
-    margin-top: -3px !important;
+    background-size: contain !important;
+    height: 26px !important;
+    width: 50px !important;
+    margin-top: -5px !important;
 }
 
 .lpc_desktop.lpc_maximized-header__icon-asset,
@@ -306,6 +310,7 @@ src: url("https://res.cloudinary.com/dvt6kjlil/raw/upload/v1620287210/Fonts/Aven
 }
 .lpc_desktop.lpc_message_agent a{
     color: blue !important;
+    text-decoration: none !important;
 }
 
 .lpc_desktop.lpc_message_agent a:visited{
@@ -345,9 +350,9 @@ src: url("https://res.cloudinary.com/dvt6kjlil/raw/upload/v1620287210/Fonts/Aven
     display: block;
     content: ' ';
     width: 10px;
-    height: 10px;
+    height: 7px;
     position: absolute;
-    bottom: 13px;
+    bottom: 100%;
     right: -13px;
     -webkit-transform: scaleX(-1);
     -moz-transform: scaleX(-1);
@@ -366,15 +371,15 @@ src: url("https://res.cloudinary.com/dvt6kjlil/raw/upload/v1620287210/Fonts/Aven
 
 .lpc_desktop.lpc_card {
     border: 1px solid #fff !important;
-    border-radius: 5px 5px 5px 0 !important;
+    border-radius: 5px 5px 5px 5px !important;
     overflow: hidden !important;
     max-width: none !important;
-    margin-left: -8px !important;
+    margin-left: -7px !important;
 }
 
 .lpc_desktop.lpc_card__text {
     background: #fff !important;
-    padding: 8px !important;
+    padding: 7px !important;
 }
 
 .lpc_desktop.lpc_card__text span {
@@ -390,6 +395,9 @@ src: url("https://res.cloudinary.com/dvt6kjlil/raw/upload/v1620287210/Fonts/Aven
     background: #fff !important;
     margin-bottom: 0 !important;
     color: blue !important;
+    -webkit-transition: all 0.1s ease !important; /* Safari and Chrome */
+    -moz-transition: all 0.1s ease !important; /* Firefox */
+    transition: all 0.1s ease !important;
 }
 
 .lpc_desktop.lpc_card__button button:focus {
@@ -399,6 +407,9 @@ src: url("https://res.cloudinary.com/dvt6kjlil/raw/upload/v1620287210/Fonts/Aven
 .lpc_desktop.lpc_card__button button:hover {
     background: #F8F9F9 !important;
     cursor: pointer !important;
+    -webkit-transform: scale(1.02) !important;
+    -moz-transform: scale(1.02) !important;
+    transform: scale(1.02) !important;
 }
 
 .lpc_desktop.lpc_message-tail_agent,
@@ -464,6 +475,7 @@ src: url("https://res.cloudinary.com/dvt6kjlil/raw/upload/v1620287210/Fonts/Aven
 
 .lpc_desktop.lpc_maximized-header__menu-button{
     background-image: url(https://res.cloudinary.com/dvt6kjlil/image/upload/v1620214995/menu-icon_rrhktj.png) !important;
+    background-repeat: no-repeat !important;
     top: 10px !important;
     transform: rotate(90deg) !important;
     background-size: 24px !important;
