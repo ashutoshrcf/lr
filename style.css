@@ -527,6 +527,15 @@ src: url("https://res.cloudinary.com/dvt6kjlil/raw/upload/v1620287210/Fonts/Aven
     color: #FFFFFF !important;
 }
 
+.lpc_desktop.lpc_confirmation-dialog__cancel-button:hover,
+.lpc_desktop.lpc_confirmation-dialog__confirm-button:hover {
+    color: #0C121C !important;
+    background: #fff !important;
+    outline: 1px solid #0C121C !important;
+}
+
+/*
 .lpc_message-area__timestamp_auto[title^="Conversation closed"] {
     display: none !important;
 }
+*/
