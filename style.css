@@ -301,6 +301,14 @@ src: url("https://res.cloudinary.com/dvt6kjlil/raw/upload/v1620287210/Fonts/Aven
     border: none !important;
     padding: 7px !important;
     border-radius: 0px 5px 5px 5px !important;
+    margin-left: 5px !important;
+}
+
+/*Box Shadow excluding rich card*/
+.lpc_desktop.lpc_message_visitor,
+.lpc_desktop.lpc_message_agent:not(.lp_rich_content_line),
+.lpc_desktop.lpc_card {
+    box-shadow: 0px 2px 2px #00000031;
 }
 
 .lpc_desktop.lpc_message__text,
@@ -374,7 +382,16 @@ src: url("https://res.cloudinary.com/dvt6kjlil/raw/upload/v1620287210/Fonts/Aven
     border-radius: 5px 5px 5px 5px !important;
     overflow: hidden !important;
     max-width: none !important;
-    margin-left: -7px !important;
+    margin-left: -6px !important;
+}
+
+/* SURVEY BOT QUICK REPLY ROW */
+.chips-wrapper {
+    margin-left: 8px !important;
+}
+
+.chips-wrapper button {
+    background-color: #FFF !important;
 }
 
 .lpc_desktop.lpc_card__text {
@@ -491,7 +508,6 @@ src: url("https://res.cloudinary.com/dvt6kjlil/raw/upload/v1620287210/Fonts/Aven
 .lpc_desktop.lpc_composer__send-button {
     top: 7px !important;
 }
-
 
 
 
