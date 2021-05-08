@@ -397,7 +397,7 @@
 	border: 1px solid #fff !important;
 	border-radius: 5px 5px 5px 5px !important;
 	overflow: hidden !important;
-	max-width: none !important;
+	max-width: 220px !important;
 	margin-left: -6px !important;
 }
 
