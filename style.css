@@ -35,7 +35,7 @@ src: url("https://res.cloudinary.com/dvt6kjlil/raw/upload/v1620287210/Fonts/Aven
 
 .lpc_desktop.lpc_window_maximized,
 .lpc_desktop.lpc_window_minimized {
-    width: 350px !important;
+    width: 340px !important;
     border: none !important;
     box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.2) !important;
     overflow: hidden;
@@ -164,7 +164,7 @@ src: url("https://res.cloudinary.com/dvt6kjlil/raw/upload/v1620287210/Fonts/Aven
 }
 
 .lpc_desktop.lpc_window_maximized {
-    height: 600px !important;
+    height: 580px !important;
     border-radius: 0px !important;
     margin-bottom: 15px !important;
     max-height: calc(100% - 15px) !important;
