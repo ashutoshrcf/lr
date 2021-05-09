@@ -33,7 +33,7 @@
 }
 
 .lpc_desktop.lpc_window_minimized {
-	height: 50px !important;
+	height: 35px !important;
 }
 
 .lpc_desktop.lpc_minimized-header__notification-counter {
@@ -41,11 +41,15 @@
 }
 
 .lpc_desktop.lpc_window_maximized,
-.lpc_desktop.lpc_window_minimized {
+.lpc_desktop.lpc_window_minimized  {
 	width: 340px !important;
 	border: none !important;
 	box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.2) !important;
 	overflow: hidden;
+}
+
+.lpc_desktop.lpc_window_minimized {
+	width: 240px !important;
 }
 
 .lpc_desktop.lpc_maximized-header,
@@ -68,7 +72,7 @@
 }
 
 .lpc_desktop.lpc_minimized-header__text {
-	margin-left: 85px !important;
+	margin-left: 40px !important;
 }
 
 
@@ -485,17 +489,13 @@
 }
 
 .lpc_desktop.lpc_composer {
-	height: 35px !important;
-	box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.2) !important;
-	border-top: none !important;
-}
-
-.lpc_desktop.lpc_composer__text-area-wrapper.lp_input_area {
-	overflow-y: auto !important;
+	height: 40px !important;
+	box-shadow: 0 0 6px 1px rgba(0, 0, 0, 0.2) !important;
+	border-top: 1px solid #0000001E !important;
 }
 
 .lpc_desktop.lpc_composer__text-area-wrapper {
-	padding: 10px 0 !important;
+	padding: 12px 0 !important;
 }
 
 .lpc_desktop.lpc_composer__text-area {
@@ -524,7 +524,7 @@
 	background-repeat: no-repeat !important;
 	top: 10px !important;
 	transform: rotate(90deg) !important;
-	background-size: 24px !important;
+	background-size: contain !important;
 }
 
 .lpc_desktop.lpc_maximized-header__menu-button-asset {
@@ -536,23 +536,22 @@
 }
 
 .lpc_desktop.lpc_composer__send-button {
-	top: 7px !important;
+	top: 9px !important;
 }
-
 
 /* END CONVERSATION CONFIRMATION */
 
 .lpc_desktop.lpc_confirmation-dialog__title {
 	font-family: var(--font-face) !important;
 	font-size: 16px !important;
-	padding: 0px 0px 20px 0px !important;
+	padding: 0px 20px 30px 0px !important;
 	color: #000 !important;
 }
 
 .lpc_desktop.lpc_confirmation-dialog__cancel-button {
-	width: 50% !important;
-	margin: 5% !important;
-	margin-left: 25% !important;
+	width: 44% !important;
+	margin: 0% !important;
+	margin-left: 50% !important;
 	font-family: var(--font-face) !important;
 	font-size: 14px !important;
 	background: #E9ECEC !important;
@@ -560,9 +559,9 @@
 }
 
 .lpc_desktop.lpc_confirmation-dialog__confirm-button {
-	width: 50% !important;
-	margin: 5% !important;
-	margin-left: 25% !important;
+	width: 44% !important;
+	margin: 0% !important;
+	margin-left: -95% !important;
 	font-family: var(--font-face) !important;
 	font-size: 14px !important;
 	background: #0C121C !important;
