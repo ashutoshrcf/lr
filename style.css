@@ -55,7 +55,7 @@
 .lpc_desktop.lpc_maximized-header,
 .lpc_desktop.lpc_minimized-header {
 	border: none!important;
-	background: #005A2B !important;
+	background: #0C121C !important;
 	height: 35px !important;
 	border-radius: 0px !important;
 	box-shadow: none !important;
@@ -68,7 +68,7 @@
 	font-weight: 100 !important;
 	font-size: 16px !important;
 	margin-top: 0px !important;
-	margin-left: 85px !important;
+	margin-left: 83px !important;
 }
 
 .lpc_desktop.lpc_minimized-header__text {
@@ -84,9 +84,9 @@
 	background-repeat: no-repeat !important;
 	background-position: 0px 0px !important;
 	background-size: contain !important;
-	height: 26px !important;
-	width: 50px !important;
-	margin-top: -5px !important;
+	height: 30px !important;
+	width: 58px !important;
+	margin-top: -6px !important;
 }
 
 .lpc_desktop.lpc_maximized-header__icon-asset,
